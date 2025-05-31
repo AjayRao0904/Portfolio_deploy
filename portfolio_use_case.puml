@@ -1,0 +1,24 @@
+@startuml Portfolio Website Use Cases
+
+skinparam actorStyle awesome
+skinparam usecaseStyle awesome
+skinparam backgroundColor transparent
+skinparam handwritten false
+
+actor "Visitor" as visitor
+
+rectangle "Portfolio Website" {
+  usecase "View Projects" as UC1
+  usecase "View About Me" as UC2
+  usecase "View Skills" as UC3
+  usecase "Contact via Social Media" as UC4
+  usecase "Download Resume" as UC5
+}
+
+visitor --> UC1
+visitor --> UC2
+visitor --> UC3
+visitor --> UC4
+visitor --> UC5
+
+@enduml 
