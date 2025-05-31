@@ -17,7 +17,7 @@ export const Contact = () => {
         </motion.div>
 
         <div className="max-w-2xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-2xl mx-auto">
             <motion.a
               href="https://github.com/ajayrao0904"
               target="_blank"

@@ -8,7 +8,7 @@ export const Home = () => {
       className="min-h-screen flex items-center justify-center relative"
     >
       <RevealOnScroll>
-        <div className="text-center z-10 px-4 flex flex-col items-center">
+        <div className="max-w-3xl mx-auto px-4 text-center z-10 flex flex-col items-center">
           {/* Profile Picture - replace /media/photos/profile.jpg with your own image */}
           <img src="/media/photos/profile.jpg" alt="Ajay Rao" className="w-40 h-40 rounded-full object-cover mb-6 shadow-lg opacity-0 animate-fade-in" style={{ animationDelay: '0.2s', animationFillMode: 'forwards' }} />
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-yellow-400 to-yellow-200 bg-clip-text text-transparent leading-right">
