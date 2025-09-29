@@ -82,7 +82,7 @@ export const About = () => {
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
                   <strong> B.Tech in Computer Science </strong> - PES University
-                  (2016-2020)
+                  (2022-2026) - CGPA: 8.5
                 </li>
                 <li>
                   Relevant Coursework: Data Structures, Web Development, Cloud
